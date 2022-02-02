@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
         });
 
         buttonLogin.setOnClickListener {
-            println("entrou button");
             var login = editName.text.toString()
             viewModel.login(login)
         }
